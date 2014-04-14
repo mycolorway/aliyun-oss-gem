@@ -15,12 +15,13 @@ Gem::Specification.new do |s|
   #s.platform    = Gem::Platform::RUBY
   s.homepage    = "http://github.com/mycolorway/aliyun-oss-gem" 
 
-  #s.add_dependency "multi_json", "~> 1.0"
-  #s.add_dependency 'signature', "~> 0.1.6"
-  s.add_dependency "httpclient", "~> 2.3.0"
-
   s.files             = `git ls-files`.split("\n")
+  s.test_files        = `git ls-files -z spec/`.split("\n")
   s.executables       = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths     = %w(lib)
+  s.required_ruby_version = '>= 1.9.2'
+
+  s.add_development_dependency('rspec', '~> 2.4') 
+  s.add_dependency("rest-client", "~> 1.6") 
 
 end  
