@@ -1,20 +1,20 @@
 
 gem 打包命令 
-# gem build aliyun-oss.gemspec
+ gem build aliyun-oss.gemspec
 
 gem 包安装 
-# gem install aliyun-oss-0.1.0.gem
+ gem install aliyun-oss-0.1.0.gem
 
 
 
- ==================
+
 命令行使用方法 ： 
 aliyun_oss_rb -H oss.aliyuncs.com -i **** -k  *****
 
->>  这个是命令行提示符
+> >  这个是命令行提示符
 
 输入help ， 目前实现 如下几个功能， 
->>help
+> >help
 ls             -- list location directory contents
 cd [LOCATION]  -- change location work dir
 pwd
@@ -38,7 +38,7 @@ ossurl  输出对应资源的外链请求地址
 
 
 
-==================
+
 开发使用接口
 请参考 api.rb 
 
