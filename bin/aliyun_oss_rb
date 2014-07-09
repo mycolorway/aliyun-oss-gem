@@ -3,4 +3,7 @@
 $:.unshift File.dirname(__FILE__) + '/../lib'  # 增加搜索路径
 require 'aliyun-oss'
 
-AliyunOss::Command.new(ARGV).run
+
+
+AliyunOss::Command.new(ARGV).run 
+
