@@ -11,10 +11,10 @@ gem 包安装
 命令行使用方法 ： 
 aliyun_oss_rb -H oss.aliyuncs.com -i **** -k  *****
 
-> >  这个是命令行提示符
+》 这个是命令行提示符
 
 输入help ， 目前实现 如下几个功能， 
-> >help
+》help
 ls             -- list location directory contents
 cd [LOCATION]  -- change location work dir
 pwd
