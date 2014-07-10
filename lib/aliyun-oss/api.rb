@@ -3,7 +3,7 @@
 require 'digest/hmac'
 require 'digest/md5'
 require "rest-client"
-require 'Base64'
+require 'base64'
 require 'multi_xml'
 
 module AliyunOss
