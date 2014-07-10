@@ -22,6 +22,6 @@ Gem::Specification.new do |s|
   s.required_ruby_version = '>= 1.9.2'
 
   s.add_development_dependency('rspec', '~> 2.4') 
-  s.add_dependency("rest-client", "~> 1.6") 
+  s.add_dependency("rest-client", "~> 1.7") 
   s.add_dependency("multi_xml", "~> 0.5") 
 end  

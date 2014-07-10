@@ -3,16 +3,18 @@ PATH
   specs:
     aliyun-oss (0.1.0)
       multi_xml (~> 0.5)
-      rest-client (~> 1.6)
+      rest-client (~> 1.7)
 
 GEM
   remote: http://ruby.taobao.org/
   specs:
     diff-lcs (1.2.5)
-    mime-types (2.0)
+    mime-types (2.3)
     multi_xml (0.5.5)
-    rest-client (1.6.7)
-      mime-types (>= 1.16)
+    netrc (0.7.7)
+    rest-client (1.7.1)
+      mime-types (>= 1.16, < 3.0)
+      netrc (~> 0.7)
     rspec (2.14.1)
       rspec-core (~> 2.14.0)
       rspec-expectations (~> 2.14.0)
